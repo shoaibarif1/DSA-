@@ -5,6 +5,7 @@ int main()
 {
      int A[10] = {2,4,6,8,10};
      int *p;
+     int i;
      p=(int*)malloc(5*sizeof(int));
 
        p[0]=3;
